@@ -1,0 +1,11 @@
+{
+  "name": "Decibel Meter",
+  "description": "A minimalist professional real-time sound level and decibel meter.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+

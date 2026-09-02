@@ -1,0 +1,28 @@
+DECIBEL METER — PHONE APK BUILD
+
+This project is already prepared for Capacitor Android.
+
+On AndroidIDE / Termux:
+
+1. Extract the ZIP and enter the project folder.
+2. Run:
+   npm install
+3. Then run:
+   npm run build
+4. Add Android once:
+   npx cap add android
+5. Sync web files:
+   npx cap sync android
+6. Open/build the Android project with AndroidIDE, or from a configured terminal run:
+   cd android
+   ./gradlew assembleDebug
+7. The APK will be at:
+   android/app/build/outputs/apk/debug/app-debug.apk
+
+Before installing, Android may ask you to allow installs from your file manager/IDE.
+
+MICROPHONE
+The app uses the device microphone. Android will request microphone permission when the app starts.
+
+OFFLINE
+After the APK is installed, the meter itself runs locally and does not need internet.

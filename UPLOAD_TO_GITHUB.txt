@@ -1,0 +1,18 @@
+FAST APK BUILD
+
+1. Go to github.com and create a new repository named CrowdVibe.
+2. Extract this ZIP on your PC.
+3. Open the CrowdVibe_CloudBuild folder.
+4. Upload ALL files and folders inside it to the repository.
+   IMPORTANT: upload the hidden .github folder too.
+5. Commit the files to the main branch.
+6. Open the Actions tab in GitHub.
+7. Open "Build Android APK".
+8. Wait for the green check mark.
+9. Open the completed run.
+10. Under Artifacts, download "CrowdVibe-APK".
+11. Extract the downloaded artifact ZIP.
+12. You will get app-debug.apk.
+13. Copy app-debug.apk to your Android phone and install it.
+
+The installed app does not require internet to run.
